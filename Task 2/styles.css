@@ -1,0 +1,48 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url("task2bg3.jpg");
+    background-size: cover;
+}
+
+.task-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.task {
+    background-color: #ffffff7c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.task:hover {
+    transform: scale(1.05);
+}
+
+h3 {
+    margin-top: 0;
+    color: #6b31b7;
+}
+
+.deadline, .priority, .label {
+    color: #424242;
+    margin-bottom: 8px;
+    font-weight: bolder;
+}
+
+.high-priority {
+    border-left: 10px solid #e74c3c;
+}
+
+.medium-priority {
+    border-left: 10px solid #f39c12;
+}
+
+.low-priority {
+    border-left: 10px solid #2ecc71;
+}
